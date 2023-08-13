@@ -1,0 +1,128 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap%27');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family:'Poppins';
+    list-style: none;
+    text-decoration: none;
+}
+nav {
+ 
+    align-items: center;
+    background-color:#152E4C;
+    position: sticky;
+    
+}
+.logo{
+    display: inline-block;
+    vertical-align: middle;
+    overflow: hidden;
+    background-color: #F6F6F6       ;
+    padding: 10px 50px;
+}
+.logo > img {
+    width:80px;
+    height: 80px;
+}
+.nav-items{
+    display: inline-block;
+    padding-left: 50px;
+   
+}
+.nav-items:hover{
+    background-color: #054728;
+}
+li > a{
+    color: white;
+}
+li{
+    padding-left: 100px;
+    display: inline-block;
+    color: white;
+}
+main{
+    background-color: #152E4C;
+    width: 100%;
+    height: 100vh;
+    
+}
+.image{
+    height: 100%;
+    margin-right: 500px;
+    background-image: url(/chlng.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.content{
+    position: absolute;
+    background-color: white;
+    border-radius: 2px;
+    width: 500px;
+    height: 300px;
+    top: 18rem;
+    right: 12rem;
+    float: right;
+    align-items: center;
+    z-index: 1000;
+}
+
+.para{
+    padding-top: 14px;
+    font-size:.8em ;
+    color: grey;
+}
+.tagline{
+    color: #054728;
+    text-decoration:line-through underline #285ea0 ;
+}
+.button{
+    position: absolute;
+    z-index: 1100;
+    bottom: -19px;
+    right: 9rem;
+}
+.btn {
+    background-color: #285ea0;
+    padding: 13px 40px;
+    border: none;
+    color: white;
+    box-shadow: 10px 3px 8px 4px #88888846;
+}
+.opacity{
+    background-color:#2b69b54b;
+    height: 300px;
+    position: absolute;
+    width: 120px;
+    top: 18rem;
+    right: 43.2rem;
+    z-index: 1300;
+}
+
+.svg{
+    overflow: hidden;
+   padding-top: 20rem;
+   padding-left: 2rem;
+   
+}
+.svg > svg{
+    background-color: #285ea0;
+    width: 30px;
+    height: auto;
+    border-radius: 20px;
+    margin-top: 14px;
+}
+.social{
+    position: absolute;
+    top: 43rem;
+    right: 4rem;
+    padding: auto;
+    display: flex;
+    gap: 20px;
+    
+}
+        
+
